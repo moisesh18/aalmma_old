@@ -1,0 +1,33 @@
+2017-11-05 20:49:18 Debug: Notice (8): Undefined variable: farmacos in [C:\xampp\htdocs\aalmma\app\View\Farmacos\searchjson.ctp, line 3]
+Trace:
+include - APP\View\Farmacos\searchjson.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2017-11-05 20:49:49 Debug: Notice (8): Undefined variable: farmacos in [C:\xampp\htdocs\aalmma\app\View\Farmacos\searchjson.ctp, line 3]
+Trace:
+include - APP\View\Farmacos\searchjson.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2017-11-05 20:49:55 Debug: Notice (8): Undefined variable: farmacos in [C:\xampp\htdocs\aalmma\app\View\Farmacos\searchjson.ctp, line 3]
+Trace:
+include - APP\View\Farmacos\searchjson.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

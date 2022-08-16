@@ -1,0 +1,160 @@
+pedidos controller
+
+
+
+        public function add()
+    {
+        if($this->request->is('ajax'))
+        {
+            $id = $this->request->data['id'];
+            $cantidad = $this->request->data['cantidad'];
+            
+            $platillo = $this->Pedido->Platillo->find('all', array('fields' => array('Platillo.precio'), 'conditions' => array('Platillo.id' => $id)));
+            
+            $precio = $platillo[0]['Platillo']['precio'];
+            
+            $subtotal = $cantidad * $precio;
+            
+            $pedido = array( 'platillo_id' => $id, 'cantidad' => $cantidad, 'subtotal' => $subtotal );
+            
+            $existe_pedido = $this->Pedido->find( 'all', array('fields' => array('Pedido.platillo_id'), 'conditions' => array('Pedido.platillo_id' => $id)));
+            
+            if(count($existe_pedido) == 0)
+            {
+                $this->Pedido->save($pedido);
+            }
+        
+        }
+        
+        $this->autoRender = false;
+    }
+
+    public function add() {
+        if($this->request->is('post')){
+
+            $this->Pedido->create();
+
+        if($this->Pedido->save($this->request->data)){
+                $this->Session->setFlash('La pedido ha sido creado', 'default', array('class' => 'success'));
+                return $this->redirect(array('action'=>'index'));
+            }
+
+            $this->Session->setFlash('No se pudo crear el paciente');
+        }
+        $this->set('pedidos', $this->Pedido->find('all', array('order' => 'Pedido.id ASC')));
+    }
+
+
+
+
+
+    public function remove()
+    {
+        if($this->request->is('ajax'))
+        {
+            $id = $this->request->data['id'];
+            $this->Farmaco->delete($id);
+        }
+        $pedidos = $this->Pedido->find('all');
+        $this->autoRender = false;
+    }
+
+
+
+view.ctp
+<?php
+ //debug($recetas);
+?>
+
+<?php echo $this->Html->script(array('cart.js', 'jquery.animate-colors'), array('inline' => false)); ?>
+
+
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+ <span class="glyphicon glyphicon-plus"></span> Ver productos
+</button>
+
+	
+	<!-- Modal -->
+	<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="myModalLabel">Buscar productos</h4>
+		  </div>
+		  <div class="modal-body">
+			<form class="form-horizontal">
+			  <div class="form-group">
+				<div class="col-sm-6">
+				  <input type="text" class="form-control" id="q" placeholder="Buscar productos" onkeyup="load(1)">
+				</div>
+				<button type="button" class="btn btn-default" onclick="load(1)"><span class='glyphicon glyphicon-search'></span> Buscar</button>
+			  </div>
+			</form>
+			<div id="loader" style="position: absolute;	text-align: center;	top: 55px;	width: 100%;display:none;"></div><!-- Carga gif animado -->
+			<div class="outer_div" > 
+			<?php echo $this->element('table', array("recetas" => $recetas));  ?>
+			</div><!-- Datos ajax Final -->
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+			
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+
+<h1>Recetas</h1>
+
+  <div class="form-group">
+	<div class="col-sm-5">
+	  	<?php echo $this->Form->create('Farmaco', array('type' => 'GET', 'class' => 'navbar-form navbar-left', 'url' => array('controller' => 'farmacos', 'action' => 'search'))); ?>
+		<div class="form-group">
+		  <?php echo $this->Form->input('search', array('label' => false, 'div' => false, 'id' => 's', 'class' => 'form-control s', 'autocomplete' => 'off', 'placeholder' => 'Buscar farmacos...')); ?>
+		</div>
+		<?php echo $this->Form->button('Buscar', array('div' => false, 'class' => 'btn btn-primary')); ?>
+		<?php echo $this->Form->end(); ?>
+	</div>
+  </div>
+
+<?php 
+	echo $this->element('table', array("recetas" => $recetas)); 
+?>
+
+<div class="row">
+	<div class="col col-sm-12">
+		<div class="pull-right tr">
+
+		<?php echo $this->Html->link('Quitar pedidos', array('controller' => 'pedidos', 'action' => 'quitar'), array('class' => 'btn btn-danger', 'confirm' => 'Está seguro de quitar todos los pedidos?')); ?>
+		
+		&nbsp;&nbsp;
+		
+		<?php echo $this->Form->button('<i class="glyphicon glyphicon-arrow-right"></i> Procesar Orden', array('class' => 'btn btn-primary', 'escape' =>false, 'name' => 'procesar', 'value' => 'procesar')); ?>
+
+		<?php echo $this->Form->end(); ?>
+
+		</div>
+	</div>
+</div>
+
+
+<!--
+  <div class="form-group">
+	<div class="col-sm-5">
+	  	<?php echo $this->Form->create('Farmaco', array('type' => 'GET', 'class' => 'navbar-form navbar-left', 'url' => array('controller' => 'farmacos', 'action' => 'search'))); ?>
+		<div class="form-group">
+		  <?php echo $this->Form->input('search', array('label' => false, 'div' => false, 'id' => 's', 'class' => 'form-control s', 'autocomplete' => 'off', 'placeholder' => 'Buscar farmacos...')); ?>
+		</div>
+		<?php echo $this->Form->button('Buscar', array('div' => false, 'class' => 'btn btn-primary')); ?>
+		<?php echo $this->Form->end(); ?>
+	</div>
+  </div>
+-->
+
+
+
+
+p
+
+

@@ -1,0 +1,622 @@
+2018-10-27 22:39:01 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 77066328 bytes) in [/Users/moiseshernandez/developer/sites/aalmma/lib/Cake/View/View.php, line 974]
+2018-10-27 22:39:01 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 77066328 bytes)
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/Users/moiseshe...', 974)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Allowed memory ...', '/Users/moiseshe...', 974, Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2018-10-27 23:43:42 Error: [ParseError] syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:43:50 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:45:22 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:46:23 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:46:34 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:46:35 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:46:35 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:47:19 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:47:57 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:47:58 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:47:58 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:47:59 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:48:13 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:48:37 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:48:38 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:50:02 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:50:03 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:50:03 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:50:39 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:50:51 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-27 23:51:33 Error: [Error] Call to undefined method PacientesController::compact()
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: PacientesController->index()
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-10-28 00:07:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:09:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:12:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:12:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:12:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:13:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Paciente.id' in 'where clause'
+Request URL: /aalmma/pedidos/view/3
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Pedido`...', Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Pedido`...', Array, Array)
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Pedido`...', Array)
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Pedido), Array)
+#5 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /Users/moiseshernandez/developer/sites/aalmma/app/Controller/PedidosController.php(45): Model->find('all', Array)
+#7 [internal function]: PedidosController->view('3')
+#8 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#9 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#11 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-10-28 00:14:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:14:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Paciente.id' in 'where clause'
+Request URL: /aalmma/pedidos/view/3
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Pedido`...', Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Pedido`...', Array, Array)
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Pedido`...', Array)
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Pedido), Array)
+#5 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /Users/moiseshernandez/developer/sites/aalmma/app/Controller/PedidosController.php(44): Model->find('all', Array)
+#7 [internal function]: PedidosController->view('3')
+#8 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#9 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#11 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-10-28 00:18:24 Error: [Error] Call to a member function find() on null
+Request URL: /aalmma/pedidos/view/3
+Stack Trace:
+#0 [internal function]: PedidosController->view('3')
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-10-28 00:19:03 Error: [Error] Call to a member function findById() on null
+Request URL: /aalmma/pedidos/view/3
+Stack Trace:
+#0 [internal function]: PedidosController->view('3')
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-10-28 00:20:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:21:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:21:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:22:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:28:38 Error: [Error] Call to undefined method View::getDataSource()
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/View/View.php(971): include()
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/View/View.php(933): View->_evaluate('/Users/moiseshe...', Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/View/View.php(473): View->_render('/Users/moiseshe...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest))
+#6 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-10-28 00:29:04 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: App::load('PacientesContro...')
+#1 [internal function]: spl_autoload_call('PacientesContro...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(266): class_exists('PacientesContro...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-10-28 00:35:43 Error: [Error] Call to undefined method PacientesController::getDataSource()
+Request URL: /aalmma/pacientes
+Stack Trace:
+#0 [internal function]: PacientesController->index()
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-10-28 00:36:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:38:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:39:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:39:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:44:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:44:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:45:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:47:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:49:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-10-28 00:55:36 Error: [MissingControllerException] Controller class AalmmaController could not be found.
+Exception Attributes: array (
+  'class' => 'AalmmaController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/pedidos/remove
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Core/Object.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Component/RequestHandlerComponent.php(270): Object->requestAction('/aalmma/pedidos...', Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Utility/ObjectCollection.php(128): RequestHandlerComponent->beforeRedirect(Object(PedidosController), '/aalmma/pedidos...', NULL, true)
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Event/CakeEventManager.php(243): ObjectCollection->trigger('beforeRedirect')
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(770): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/Controller/PedidosController.php(71): Controller->redirect('/aalmma/pedidos...')
+#6 [internal function]: PedidosController->remove()
+#7 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#8 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#10 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-10-28 00:55:51 Error: [NotFoundException] Invalid consultorio
+Request URL: /aalmma/consultorios/view/106
+Stack Trace:
+#0 [internal function]: ConsultoriosController->view('106')
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ConsultoriosController), Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ConsultoriosController), Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-10-28 00:56:41 Error: [NotFoundException] Invalid consultorio
+Request URL: /aalmma/consultorios/view/106
+Stack Trace:
+#0 [internal function]: ConsultoriosController->view('106')
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ConsultoriosController), Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ConsultoriosController), Object(CakeRequest))
+#4 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-10-28 01:01:12 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'diagnostico' doesn't have a default value
+Request URL: /aalmma/pacientes/add
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `aa...', Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `aa...')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(1933): DboSource->create(Object(Paciente), Array, Array)
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/Controller/PacientesController.php(96): Model->save(Array)
+#6 [internal function]: PacientesController->add()
+#7 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#8 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest))
+#10 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-10-28 01:23:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /aalmma/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-05 15:50:21 Error: [ParseError] syntax error, unexpected '<<' (T_SL), expecting end of file
+Request URL: /aalmma/pacientes/duplicate/1
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/View/View.php(933): View->_evaluate('/Users/moiseshe...', Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/View/View.php(473): View->_render('/Users/moiseshe...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-09 12:07:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /aalmma/pedidos/view/2
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3653): Model->setSource('ordens')
+#5 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3151): Model->getDataSource()
+#6 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3064): Model->_findCount('before', Array)
+#7 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(2998): Model->buildQuery('count', Array)
+#8 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(2908): Model->find('count', Array)
+#9 /Users/moiseshernandez/developer/sites/aalmma/app/Controller/PedidosController.php(39): Model->exists('2')
+#10 [internal function]: PedidosController->view('2')
+#11 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#12 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#14 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-11-09 12:18:00 Error: [ParseError] syntax error, unexpected '<<' (T_SL), expecting end of file
+Request URL: /aalmma/pacientes/duplicate/1
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/View/View.php(933): View->_evaluate('/Users/moiseshe...', Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/View/View.php(473): View->_render('/Users/moiseshe...')
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest))
+#5 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-22 17:50:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Farmaco.Costo' in 'field list'
+Request URL: /aalmma/pedidos/itemupdate
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Pedido`...', Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Pedido`...', Array, Array)
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Pedido`...', Array)
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Pedido), Array)
+#5 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /Users/moiseshernandez/developer/sites/aalmma/app/Controller/PedidosController.php(86): Model->find('all', Array)
+#7 [internal function]: PedidosController->itemupdate()
+#8 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#9 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#11 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-11-22 17:50:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Farmaco.Costo' in 'field list'
+Request URL: /aalmma/pedidos/itemupdate
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Pedido`...', Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Pedido`...', Array, Array)
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Pedido`...', Array)
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Pedido), Array)
+#5 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /Users/moiseshernandez/developer/sites/aalmma/app/Controller/PedidosController.php(86): Model->find('all', Array)
+#7 [internal function]: PedidosController->itemupdate()
+#8 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#9 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#11 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-11-22 17:50:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Farmaco.Costo' in 'field list'
+Request URL: /aalmma/pedidos/itemupdate
+Stack Trace:
+#0 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Pedido`...', Array)
+#2 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Pedido`...', Array, Array)
+#3 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Pedido`...', Array)
+#4 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Pedido), Array)
+#5 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /Users/moiseshernandez/developer/sites/aalmma/app/Controller/PedidosController.php(86): Model->find('all', Array)
+#7 [internal function]: PedidosController->itemupdate()
+#8 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PedidosController), Array)
+#9 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/moiseshernandez/developer/sites/aalmma/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PedidosController), Object(CakeRequest))
+#11 /Users/moiseshernandez/developer/sites/aalmma/app/webroot/index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
